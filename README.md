@@ -19,13 +19,17 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installing
 
 Clone the repo or "Use this template".
-```
+
+```bash
 git clone https://github.com/artthurz/next-boilerplate.git
 ```
 
 Install the dependencies and run the app.
-```
-npm i or yarn
+
+```bash
+npm i
+# or
+yarn
 ```
 
 Then, run the development server:
