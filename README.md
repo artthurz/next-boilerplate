@@ -24,7 +24,7 @@ Clone the repo or "Use this template".
 git clone https://github.com/artthurz/next-boilerplate.git
 ```
 
-Install the dependencies and run the app.
+Install the dependencies:
 
 ```bash
 npm i
