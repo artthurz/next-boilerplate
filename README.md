@@ -1,3 +1,9 @@
+# Next Boilerplate
+
+Next.js, typescript and styled-components boilerplate.
+
+Also included Prettier and Eslint settings using Airbnb as style guide.
+
 ## Getting Started
 
 First, run the development server:
