@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
   * {
@@ -13,4 +13,4 @@ export default createGlobalStyle`
     font: 400 16px Roboto, sans-serif;
     overflow-x: hidden;
   }
-`;
+`

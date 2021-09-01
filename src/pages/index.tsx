@@ -1,6 +1,6 @@
-import type { NextPage } from "next";
-import Head from "next/head";
-import * as S from "@/styles/pages/Home";
+import type { NextPage } from 'next'
+import Head from 'next/head'
+import * as S from '@/styles/pages/Home'
 
 const Home: NextPage = () => {
   return (
@@ -10,6 +10,6 @@ const Home: NextPage = () => {
       </Head>
       <h1>Olá</h1>
     </S.Container>
-  );
-};
-export default Home;
+  )
+}
+export default Home
