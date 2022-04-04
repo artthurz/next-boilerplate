@@ -9,7 +9,9 @@
     "plugin:react/recommended",
     "standard",
     "plugin:@typescript-eslint/recommended",
-    "prettier"
+    "prettier",
+    "eslint:recommended",
+    "next"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -19,7 +21,11 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": ["react", "@typescript-eslint", "react-hooks", "prettier"],
+  "plugins": ["@typescript-eslint", "prettier"],
+  "globals": {
+    "React": true,
+    "JSX": true
+  },
   "rules": {
     "prettier/prettier": "error",
     "react/prop-types": "off",
@@ -32,6 +38,7 @@
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
     "react/display-name": "off",
-    "@typescript-eslint/no-non-null-assertion": "off"
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off"
   }
 }
